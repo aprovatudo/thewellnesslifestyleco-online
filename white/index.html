@@ -2,61 +2,66 @@
 <html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Deloitte Touche Tohmatsu Auditores Independentes Ltda</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Segoe UI', Tahoma, sans-serif;background:#f8f7f2;color:#333;line-height:1.6}
-header{background:#0f1f40;color:#e8d47a;padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:64px;position:sticky;top:0;z-index:10;box-shadow:0 2px 8px rgba(0,0,0,.3)}
-header h1{font-family:Garamond, 'Times New Roman', serif;font-size:1.1rem;font-weight:700}
-nav ul{list-style:none;display:flex;gap:28px}
-nav a{color:#c9a227;text-decoration:none;font-size:.9rem;transition:color .2s}
-nav a:hover{color:#e8d47a}
-.hero{background:linear-gradient(170deg, #070f20 0%, #0f1f40 60%, #1e3a70 100%);color:white;padding:88px 32px;text-align:center}
-.hero-inner{max-width:700px; margin:0 auto;}
-.hero-eyebrow{font-size:.8rem;letter-spacing:.15em;color:#c9a227;text-transform:uppercase;margin-bottom:20px}
-.hero h2{font-family:Garamond, 'Times New Roman', serif;font-size:2.3rem;font-weight:700;margin-bottom:18px;line-height:1.25}
-.hero h2 em{color:#c9a227;font-style:normal}
-.hero p{color:#d4dff5;max-width:620px;margin:0 auto 32px;margin-bottom:32px;font-size:1.05rem}
-.hero-cta{display:inline-block;background:#c9a227;color:white;padding:14px 32px;border-radius:6px;text-decoration:none;font-weight:600;transition:background .2s}
-.hero-cta:hover{background:#d4af30}
-.hero-since{margin-top:18px;font-size:.85rem;color:#c9a227}
-.section{max-width:960px;margin:72px auto;padding:0 32px}
-.section-header{margin-bottom:40px}
-.section-eyebrow{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#c9a227;font-weight:700;margin-bottom:8px}
-.section-header h2{font-family:Garamond, 'Times New Roman', serif;font-size:1.75rem;color:#0f1f40}
-.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:24px}
-article{background:white;border-radius:4px;padding:28px 24px;box-shadow:0 2px 10px rgba(0,0,0,.07);border-left: 4px solid #c9a227}
-.srv-icon{font-size:1.8rem;margin-bottom:12px}
-article h4{font-family:Garamond, 'Times New Roman', serif;font-size:1rem;color:#0f1f40;margin-bottom:8px}
-article p{font-size:.9rem;color:#666;line-height:1.65}
-.section p{color:#555;margin-bottom:14px;line-height:1.85}
-.stats-table{width:100%;border-collapse:collapse;margin-top:28px;background:white;border-radius:4px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.07)}
-.stats-table td{padding:14px 20px;border-bottom:1px solid #eee;font-size:.93rem}
-.stats-table tr:last-child td{border-bottom:none}
-.stats-table td:first-child{color:#0f1f40;font-weight:600;width:220px}
-.contato-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-bottom:28px}
-.contato-item{background:white;border-radius:4px;padding:24px;box-shadow:0 2px 10px rgba(0,0,0,.07)}
-.contato-item h4{color:#0f1f40;margin-bottom:8px;font-size:.95rem}
-.contato-item a{color:#c9a227;text-decoration:none;font-size:.95rem}
-address{background:white;border-radius:4px;padding:20px 24px;box-shadow:0 2px 10px rgba(0,0,0,.07);font-style:normal;font-size:.93rem;color:#555;line-height:1.8}
-address strong{color:#0f1f40}
-footer{background:#070f20;color:#7a6a3a;text-align:center;padding:32px;font-size:.82rem;margin-top:80px}
-footer p+p{margin-top:6px}
-@media(max-width:600px){nav{display:none}.hero h2{font-size:1.6rem}.hero{padding:60px 24px}}
+body{font-family:'Segoe UI', Arial, sans-serif;background:#0d0d0d;color:#f0ead6;line-height:1.6}
+header{background:#0d0d0d;border-bottom:1px solid #7a6020;padding:0 48px;display:flex;align-items:center;justify-content:space-between;height:56px;position:sticky;top:0;z-index:10}
+.logo{font-family:Garamond, Georgia, serif;font-size:.95rem;font-weight:700;color:#c9a227;letter-spacing:.04em}
+nav ul{list-style:none;display:flex;gap:32px}
+nav a{color:#a09060;text-decoration:none;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase}
+nav a:hover{color:#c9a227}
+.hero{padding:100px 48px 80px;max-width:900px}
+.hero-tag{display:inline-block;border:1px solid #7a6020;color:#c9a227;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;padding:6px 16px;margin-bottom:32px}
+.hero h1{font-family:Garamond, Georgia, serif;font-size:clamp(2.4rem,5vw,4rem);font-weight:700;line-height:1.1;margin-bottom:24px;color:#f0ead6}
+.hero h1 em{color:#c9a227;font-style:normal}
+.hero-desc{font-size:1.1rem;color:#a09060;max-width:600px;margin-bottom:40px;line-height:1.8}
+.hero-cta{display:inline-block;background:#c9a227;color:#0d0d0d;padding:16px 40px;text-decoration:none;font-weight:700;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase}
+.hero-cta:hover{background:#7a6020;color:#f0ead6}
+.divider{border:none;border-top:1px solid #7a6020;margin:0 48px}
+.section{padding:72px 48px;max-width:960px;margin:0 auto}
+.sec-label{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:#c9a227;margin-bottom:12px}
+.sec-h2{font-family:Garamond, Georgia, serif;font-size:1.8rem;font-weight:700;color:#f0ead6;margin-bottom:48px}
+.srv-item{display:flex;gap:32px;align-items:flex-start;padding:28px 0;border-bottom:1px solid #7a6020}
+.srv-item:last-child{border-bottom:none}
+.srv-n{font-family:Garamond, Georgia, serif;font-size:3rem;font-weight:700;color:#7a6020;min-width:72px;line-height:1;letter-spacing:-.02em}
+.srv-item h4{font-family:Garamond, Georgia, serif;font-size:1.05rem;font-weight:700;color:#c9a227;margin-bottom:8px}
+.srv-item p{font-size:.9rem;color:#a09060;line-height:1.7}
+.sobre-sec{background:#141414;padding:72px 48px;margin-top:0}
+.sobre-inner{max-width:900px;margin:0 auto}
+.sobre-inner p{color:#a09060;line-height:1.9;margin-bottom:16px;font-size:.98rem}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:0;margin-top:48px;border:1px solid #7a6020}
+.meta-cell{padding:20px 24px;border-right:1px solid #7a6020}
+.meta-cell:last-child{border-right:none}
+.meta-label{font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:#c9a227;margin-bottom:4px}
+.meta-value{font-size:.92rem;color:#f0ead6;font-weight:600}
+.contato-sec{padding:72px 48px;max-width:960px;margin:0 auto}
+.contato-inner{border-left:2px solid #c9a227;padding-left:32px;max-width:500px}
+.contato-inner p{color:#a09060;margin-bottom:12px;font-size:.95rem;line-height:1.7}
+.contato-inner a{color:#c9a227;text-decoration:none}
+footer{background:#141414;border-top:1px solid #7a6020;padding:24px 48px;display:flex;justify-content:space-between;font-size:.78rem;color:#5a4a20}
+@media(max-width:600px){.hero{padding:60px 24px}.section,.contato-sec{padding:48px 24px}nav{display:none}.srv-n{font-size:2rem;min-width:48px}}
 </style></head><body>
-<header><h1>Deloitte Touche Tohmatsu Auditores Independentes Ltda</h1><nav><ul><li><a href="#servicos">Serviços</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#contato">Contato</a></li></ul></nav></header>
-<section id="hero" class="hero"><div class="hero-inner">
-  <p class="hero-eyebrow">Auditoria · Consultoria · Conformidade Tributária</p>
-  <h2>Excelência em <em>auditoria</em> e <em>consultoria</em> contábil</h2>
-  <p>A Deloitte oferece soluções integradas de auditoria, consultoria contábil e tributária para empresas que buscam otimizar sua gestão financeira e conformidade regulatória. Somos parceiros estratégicos de organizações que desejam crescer com segurança e transparência.</p>
+<header><span class="logo">Deloitte Touche Tohmatsu Auditores Independentes Ltda</span><nav><ul><li><a href="#servicos">Serviços</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#contato">Contato</a></li></ul></nav></header>
+<div id="hero" class="hero">
+  <div class="hero-tag">Auditoria · Consultoria · Conformidade Tributária</div>
+  <h1>Transforme dados em <em>decisões estratégicas</em> com <em>auditoria</em> confiável</h1>
+  <p class="hero-desc">Somos especialistas em auditoria contábil, consultoria e conformidade tributária para empresas que buscam excelência financeira. Oferecemos soluções integradas que fortalecem a gestão, reduzem riscos e impulsionam resultados sustentáveis.</p>
   <a href="#contato" class="hero-cta">Converse com especialistas</a>
-  <p class="hero-since"><strong>Desde 1978</strong></p>
-</div></section>
-<div id="servicos" class="section"><div class="section-header"><p class="section-eyebrow">Diferenciais</p><h2>Por que nos escolher</h2></div><div class="services-grid"><article><div class="srv-icon">📊</div><h4>Auditoria Independente</h4><p>Avaliação independente das demonstrações contábeis e conformidade com normas contábeis internacionais.</p></article><article><div class="srv-icon">🤝</div><h4>Consultoria Tributária</h4><p>Planejamento e otimização tributária alinhado à legislação brasileira e estratégia empresarial.</p></article><article><div class="srv-icon">💼</div><h4>Consultoria Contábil</h4><p>Assessoria especializada em processos contábeis, sistemas e conformidade regulatória.</p></article><article><div class="srv-icon">🔍</div><h4>Due Diligence Financeira</h4><p>Análise detalhada de situação financeira e fiscal para transações e aquisições empresariais.</p></article></div></div>
-<div id="sobre" class="section"><div class="section-header"><p class="section-eyebrow">Sobre a empresa</p><h2>Nossa trajetória</h2></div><p>A Deloitte Touche Tohmatsu é uma firma global de auditoria, consultoria contábil e tributária com presença consolidada em São Paulo e em todo o Brasil. Contamos com uma equipe de especialistas dedicados a entregar soluções que agregam valor e reduzem riscos para nossos clientes.</p><p>Nossa abordagem combina profundo conhecimento da legislação tributária e contábil brasileira com melhores práticas internacionais. Nos comprometemos a oferecer serviços de excelência que transformam desafios financeiros em oportunidades de crescimento sustentável.</p><table class="stats-table"><tr><td><strong>SP</strong></td><td>São Paulo</td></tr><tr><td><strong>✅</strong></td><td>Situação Ativa</td></tr><tr><td><strong>Razão Social</strong></td><td>Deloitte Touche Tohmatsu Auditores Independentes Ltda</td></tr><tr><td><strong>CNPJ</strong></td><td>49.928.567/0001-11</td></tr><tr><td><strong>Situação Cadastral</strong></td><td>✅ Ativa desde 1978-04-17</td></tr></table></div>
-<div id="contato" class="section"><div class="section-header"><p class="section-eyebrow">Fale conosco</p><h2>Fale com nossos especialistas</h2></div><p>Atendimento personalizado para cada necessidade.</p>
-<div class="contato-grid" style="margin-top:24px">
-  <div class="contato-item"><h4>📞 Telefone</h4><a href="tel:+551151861000">(11) 5186-1000</a></div>
-  
 </div>
-<address><strong>Endereço:</strong><br>R. Doutor Chucri Zaidan, 1240, Vila Sao Francisco (Zona Sul), Sao Paulo — SP, CEP 04711-130</address>
-</div>
-<footer><p>Deloitte Touche Tohmatsu Auditores Independentes Ltda</p><p>© 1978–2026 Deloitte Touche Tohmatsu Auditores Independentes Ltda. Todos os direitos reservados.</p><p>CNPJ 49.928.567/0001-11</p></footer>
+<hr class="divider">
+<div id="servicos" class="section"><p class="sec-label">Expertise</p><h2 class="sec-h2">Nossas especialidades</h2><div class="srv-item"><span class="srv-n">01</span><div><h4>Auditoria Contábil</h4><p>Avaliação independente e rigorosa das demonstrações financeiras para garantir precisão e conformidade normativa.</p></div></div><div class="srv-item"><span class="srv-n">02</span><div><h4>Consultoria Tributária</h4><p>Otimização de processos fiscais e planejamento tributário estratégico para reduzir passivos e maximizar eficiência.</p></div></div><div class="srv-item"><span class="srv-n">03</span><div><h4>Due Diligence</h4><p>Análise abrangente de riscos financeiros e contábeis para apoiar fusões, aquisições e transações empresariais.</p></div></div><div class="srv-item"><span class="srv-n">04</span><div><h4>Conformidade e Governança</h4><p>Implementação de estruturas de controle interno e governança corporativa alinhadas às melhores práticas do mercado.</p></div></div></div>
+<div id="sobre" class="sobre-sec"><div class="sobre-inner">
+  <p class="sec-label">Sobre a empresa</p><h2 class="sec-h2">Quem somos</h2>
+  <p>A Deloitte Touche Tohmatsu Auditores Independentes é referência em auditoria contábil e consultoria tributária no Brasil, atuando desde São Paulo com excelência e integridade. Combinamos experiência global com conhecimento profundo do mercado brasileiro, entregando soluções personalizadas que geram confiança e valor aos nossos clientes.</p><p>Nossa equipe multidisciplinar utiliza metodologias avançadas e tecnologia de ponta para identificar oportunidades de melhoria e mitigar riscos. Somos comprometidos com a transparência, a conformidade regulatória e o desenvolvimento sustentável das organizações que nos confiam.</p>
+  <div class="meta-grid">
+    <div class="meta-cell"><div class="meta-label">Razão Social</div><div class="meta-value">Deloitte Touche Tohmatsu Auditores Independentes Ltda</div></div>
+    <div class="meta-cell"><div class="meta-label">CNPJ</div><div class="meta-value">49.928.567/0001-11</div></div>
+    <div class="meta-cell"><div class="meta-label">Estado</div><div class="meta-value">São Paulo</div></div>
+    <div class="meta-cell"><div class="meta-label">Fundação</div><div class="meta-value">1978</div></div>
+  </div>
+</div></div>
+<div id="contato" class="contato-sec"><p class="sec-label">Fale conosco</p><h2 class="sec-h2">Fale conosco</h2>
+<div class="contato-inner">
+  <p>Atendimento reservado e personalizado.</p>
+  <p><strong>Telefone:</strong> <a href="tel:+551151861000">(11) 5186-1000</a></p><p><strong>Endereço:</strong> R. Doutor Chucri Zaidan, 1240, Vila Sao Francisco (Zona Sul), Sao Paulo — SP, CEP 04711-130</p>
+</div></div>
+<footer><span>Deloitte Touche Tohmatsu Auditores Independentes Ltda · CNPJ 49.928.567/0001-11</span><span>© 1978–2026 Deloitte Touche Tohmatsu Auditores Independentes Ltda</span></footer>
 </body></html>
